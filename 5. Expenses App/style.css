@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+.center,
+#wrap,
+#wrap nav #add i,
+#wrap #action-bar .action i {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+* {
+	box-sizing: border-box;
+	text-align: center;
+	font-family: "Opne Sans", sans-serif;
+}
+
+body {
+	background: #F2F2F2;
+}
+
+#wrap {
+	width: 280px;
+	height: 498px;
+	background: #4765FF;
+	overflow: hidden;
+	border-radius: 6px 6px 0 0;
+	box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+}
+
+#wrap #skew {
+	width: 100%;
+	height: 180px;
+	background: #FBCB5E;
+	-webkit-transform: skewY(-15deg);
+	transform: skewY(-15deg);
+	position: absolute;
+	bottom: -40px;
+	z-index: -1;
+}
+
+#wrap nav #menu {
+	float: left;
+	width: 20px;
+	height: auto;
+	margin: 20px;
+}
+
+#wrap nav #menu .bar {
+	width: 20px;
+	height: 2px;
+	background: #fff;
+}
+
+#wrap nav #menu .bar:nth-child(2) {
+	margin: 5px 0;
+	width: 10px;
+	height: 2px;
+}
+
+#wrap nav #menu .bar:nth-child(3) {
+	width: 15px;
+	height: 2px;
+}
+
+#wrap nav #add {
+	width: 35px;
+	height: 35px;
+	background: #FBCB5E;
+	border-radius: 50%;
+	margin: 15px;
+	float: right;
+	position: relative;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#wrap nav #add i {
+	font-size: 12px;
+}
+
+#wrap #tabs {
+	width: 90%;
+	height: 40px;
+	background: #6B83FF;
+	border-radius: 40px;
+	margin: 80px auto 44px auto;
+}
+
+#wrap #tabs #active {
+	background: #fff;
+}
+
+#wrap #tabs #active p {
+	color: #000;
+	font-weight: 800;
+}
+
+#wrap #tabs .tab {
+	float: left;
+	width: 33.3%;
+	height: 40px;
+	border-radius: 40px;
+	-webkit-transition: 0.3s linear;
+	transition: 0.3s linear;
+}
+
+#wrap #tabs .tab:hover {
+	background: #fff;
+}
+
+#wrap #tabs .tab:hover p {
+	color: #000;
+	font-weight: 800;
+}
+
+#wrap #tabs .tab p {
+	line-height: 40px;
+	font-size: 11px;
+	font-weight: 600;
+	color: #F2F2F2;
+}
+
+#wrap #expense {
+	color: #fff;
+	margin-bottom: 44px;
+}
+
+#wrap #expense h3 {
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+#wrap #expense p {
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+
+#wrap #expense p span {
+	font-size: 15px;
+}
+
+#wrap #card-group {
+	width: 250%;
+	height: 180px;
+}
+
+#wrap #card-group .card {
+	width: 115px;
+	height: 180px;
+	@incluse shadow(40px);
+	border-radius: 5px;
+	background: #fff;
+	float: left;
+}
+
+#wrap #card-group .card:first-child {
+	margin-left: 10px;
+}
+
+#wrap #card-group .card:nth-child(2) {
+	margin: 0 10px;
+}
+
+#wrap #card-group .card .icon {
+	width: 30px;
+	padding: 20px 0;
+}
+
+#wrap #card-group .card .title {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+#wrap #card-group .card .date {
+	font-size: 10px;
+	opacity: 0.5;
+	padding-top: 8px;
+}
+
+#wrap #card-group .card .price {
+	font-size: 15px;
+	font-weight: 600;
+	padding: 12px 0;
+}
+
+#wrap #card-group .card .status {
+	background: #fff;
+	border: 1px solid #88D884;
+	border-radius: 60px;
+	color: #88D884;
+	font-size: 10px;
+}
+
+#wrap #action-bar {
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	position: absolute;
+	bottom: 0;
+}
+
+#wrap #action-bar .action {
+	float: left;
+	width: 25%;
+	height: 50px;
+	position: relative;
+	-webkit-transition: 0.3s linear;
+	transition: 0.3s linear;
+}
+
+#wrap #action-bar .action:hover {
+	background: #e6e6e6;
+}
+
+#wrap #action-bar .action i {
+	font-size: 14px;
+	top: 40%;
+	color: #666666;
+}
+
+#wrap #action-bar .action .action-name {
+	font-size: 8px;
+	color: #999999;
+	padding-top: 33px;
+}

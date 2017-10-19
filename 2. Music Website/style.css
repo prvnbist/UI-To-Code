@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Oswald:400,500,600,700");
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+#container {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+}
+
+#container #left {
+	width: 30vw;
+	height: 100vh;
+	float: left;
+	background: #FF1733;
+}
+
+#container #left #logo {
+	margin: 30px 0 0 30px;
+}
+
+#container #left #menu {
+	margin-top: 150px;
+	width: 30%;
+}
+
+#container #left #menu .links {
+	margin-bottom: 10px;
+}
+
+#container #left #menu .links a {
+	font-size: 12px;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	float: right;
+}
+
+#container #left #menu span {
+	width: 10px;
+	height: 1.2px;
+	display: block;
+	float: left;
+	background: #fff;
+	margin: 6px 0 0 10px;
+}
+
+#container #left #menu #active {
+	width: 20px;
+	margin-left: 0;
+}
+
+#container #left #artist {
+	height: 80vh;
+	width: 30vw;
+	background: #222;
+	position: absolute;
+	left: 15%;
+	top: 10vh;
+	overflow: hidden;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+	background-image: url("https://res.cloudinary.com/prvnbist/image/upload/v1494142624/6OsSlIr_dq6uav.jpg");
+	background-size: cover;
+	background-blend-mode: screen;
+}
+
+#container #left #social {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+#container #left #social i {
+	padding: 10px;
+}
+
+#container #content {
+	width: 70vw;
+	height: 100vh;
+	float: left;
+}
+
+#container #content #text {
+	height: auto;
+	margin-top: 10vh;
+	padding: 0 10% 0 25%;
+}
+
+#container #content #text i {
+	color: #7D7D7D;
+	float: left;
+	font-size: 14px;
+}
+
+#container #content #text h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 30px;
+	color: #222;
+	margin: 80px 0 40px 0;
+}
+
+#container #content #text h2 {
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	color: #222;
+}
+
+#container #content #text p {
+	width: 100%;
+	font-size: 80%;
+	line-height: 20px;
+	color: #9E9E9E;
+	letter-spacing: 0.5px;
+	font-family: "Open Sans" sans-serif;
+}
+
+#container #content #text button {
+	background: transparent;
+	border: 2px solid #FF1733;
+	padding: 10px 20px;
+	margin-top: 30px;
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	color: #FF1733;
+	-webkit-transition: linear 0.2s;
+	transition: linear 0.2s;
+}
+
+#container #content #text button:hover {
+	color: #fff;
+	background: #FF1733;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#container #content #text button span {
+	float: right;
+	margin-top: 3px;
+	padding-left: 10px;
+	color: #FF1733;
+}
+
+i {
+	color: #fff;
+}

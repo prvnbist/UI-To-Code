@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:400,500,600,700");
+.center, header #circular-bg, header img, header #headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  background: #A2C2AB;
+  font-family: "Cabin", sans-serif;
+  overflow: hidden;
+}
+
+.nav-hover:before, header nav a:before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 10px;
+  bottom: 0;
+  left: -10%;
+  border-radius: 60px;
+  z-index: -1;
+  -webkit-transition: 0.3s cubic-bezier(0.63, -0.18, 0.44, 1.17);
+  transition: 0.3s cubic-bezier(0.63, -0.18, 0.44, 1.17);
+}
+.nav-hover:hover:before, header nav a:hover:before {
+  background: #B2CDBA;
+}
+
+header #circular-bg {
+  width: 80vw;
+  height: 80vw;
+  background: #9BB8A4;
+  border-radius: 50%;
+  z-index: -10;
+}
+header #logo {
+  width: 30px;
+  height: 115px;
+  background: #000;
+  position: absolute;
+  top: 30px;
+}
+header #logo a {
+  display: block;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  padding-left: 20px;
+  font-weight: 600;
+}
+header nav {
+  width: 350px;
+  margin: 30px auto 0 auto;
+}
+header nav a {
+  font-size: 18px;
+  margin-left: 25px;
+  position: relative;
+}
+header nav a:first-child {
+  margin-left: 0;
+  position: relative;
+}
+header #menu-icon {
+  float: right;
+  margin: -15px 50px 0 0;
+}
+header #menu-icon .bar {
+  width: 25px;
+  height: 2px;
+  background: #fff;
+  -webkit-transition: 0.3s cubic-bezier(0.63, -0.18, 0.44, 1.17);
+  transition: 0.3s cubic-bezier(0.63, -0.18, 0.44, 1.17);
+}
+header #menu-icon .bar:first-child {
+  margin-bottom: 8px;
+}
+header #menu-icon:hover .bar:first-child {
+  -webkit-transform: translateY(5px) rotate(45deg);
+          transform: translateY(5px) rotate(45deg);
+}
+header #menu-icon:hover .bar:last-child {
+  -webkit-transform: translateY(-5px) rotate(-45deg);
+          transform: translateY(-5px) rotate(-45deg);
+}
+header #platten {
+  font-size: 100px;
+  font-weight: 700;
+  position: absolute;
+  left: 20vw;
+  top: 15%;
+}
+header #platten:before {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 60px;
+  background: #B2CDBA;
+  bottom: -10px;
+  left: -5%;
+  border-radius: 60px;
+  z-index: -1;
+}
+header img {
+  width: 500px;
+  top: 60%;
+}
+header #headline {
+  font-size: 30px;
+  line-height: 35px;
+  text-align: left;
+  left: 40vw;
+  top: 65%;
+}
+header #headline:before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: #fff;
+  top: 22%;
+  left: -25%;
+}
+header #headline:after {
+  content: "available in 10 colors";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+header button {
+  margin-top: 80vh;
+  width: 140px;
+  height: 50px;
+  background: #C5E2CC;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 15px;
+}
+header #left, header #right {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #C5E2CC;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+header #left i, header #right i {
+  line-height: 60px;
+}
+header #left {
+  left: 7%;
+}
+header #right {
+  right: 7%;
+}
+
+@media screen and (max-width: 600px) {
+  #small-screen {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: aqua;
+    z-index: 1000;
+  }
+  #small-screen:after {
+    content: "Please view on a Desktop";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+}

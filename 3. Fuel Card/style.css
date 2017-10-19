@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Roboto");
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #F5F5F5;
+	overflow: hidden;
+}
+
+#bg {
+	width: 55vw;
+	height: 100vh;
+	float: right;
+	margin-right: -180px;
+	background: #FD4150;
+	-webkit-transform: skewX(-30deg);
+	transform: skewX(-30deg);
+}
+
+.center,
+#card,
+#card #small-card img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#card {
+	width: 80vw;
+	height: 53.33333vw;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 25px 40px -20px rgba(0, 0, 0, 0.2);
+}
+
+#card #small-card {
+	width: 35vw;
+	height: 23.33333vw;
+	color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 25px 40px -20px rgba(0, 0, 0, 0.2);
+	background: -webkit-linear-gradient(left, #FF4353 10%, #E52A2A 100%);
+	background: linear-gradient(to right, #FF4353 10%, #E52A2A 100%);
+	position: absolute;
+	top: 10%;
+	left: -5%;
+}
+
+#card #small-card::before {
+	content: " ";
+	width: 33vw;
+	height: 43vh;
+	position: absolute;
+	z-index: -1;
+	top: -7%;
+	left: 11.5%;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#card #small-card::after {
+	content: " ";
+	width: 33vw;
+	height: 48vh;
+	position: absolute;
+	z-index: -1;
+	top: -13%;
+	left: 11.5%;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#card #small-card h5 {
+	float: left;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-family: "Oswald", sans-serif;
+}
+
+#card #small-card h5:nth-child(2) {
+	float: right;
+}
+
+#card #small-card p {
+	clear: both;
+	opacity: 0.8;
+	font-size: 12px;
+	padding-top: 8px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#card #small-card img {
+	width: 25%;
+}
+
+#card #content {
+	float: right;
+	font-family: "Roboto", sans-serif;
+	padding: 40px 60px 0 0;
+	width: 40vw;
+	height: 100%;
+}
+
+#card #content span {
+	color: #A5A5A5;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+#card #content h1 {
+	color: #FA3E4B;
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+
+#card #content p {
+	opacity: 0.8;
+	color: #FA3E4B;
+	font-size: 14px;
+	margin-top: 10px;
+	font-weight: 500;
+	line-height: 18px;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 0.5px;
+}
+
+#card #content h3 {
+	color: #A5A5A5;
+	font-size: 12px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#card #content #color-bar {
+	margin-top: 20px;
+	width: 200px;
+	height: 8px;
+	border-radius: 90px;
+	background: -webkit-linear-gradient(left, #FF4353 10%, #E52A2A 100%);
+	background: linear-gradient(to right, #FF4353 10%, #E52A2A 100%);
+}
+
+#card #content .detail {
+	margin-top: 30px;
+}
+
+#card #content .detail h2 {
+	color: red;
+	font-weight: 600;
+	opacity: 0.6;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+#card #content .detail .circle {
+	width: 40px;
+	height: 40px;
+	float: left;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+#card #content .detail .circle .left,
+#card #content .detail .circle .right {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+@media screen and (max-width: 768px) {
+	#content .detail h2 {
+		font-size: 14px;
+		margin-bottom: 2px;
+	}
+	#content .detail .circle {
+		height: 30px;
+		width: 30px;
+	}
+	#content .detail .circle .left,
+	#content .detail .circle .right {
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+}

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
+.center, #app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+}
+
+body {
+  background: #F2F2F2;
+  font-family: "Poppins", sans-serif;
+}
+
+#app {
+  width: 280px;
+  height: 498px;
+  background: #fff;
+  box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.2);
+}
+#app #menu-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 30px 0 0 25px;
+  float: left;
+}
+#app #menu-icon .bar {
+  width: 20px;
+  height: 2px;
+  background: #4C4949;
+}
+#app #menu-icon .bar:before {
+  content: "";
+  position: absolute;
+  background: #4C4949;
+  width: 20px;
+  height: 2px;
+  top: -5px;
+  left: 0;
+}
+#app #menu-icon .bar:after {
+  content: "";
+  position: absolute;
+  background: #4C4949;
+  width: 10px;
+  height: 2px;
+  top: 5px;
+  left: 0;
+  -webkit-transition: 0.3s cubic-bezier(0.52, -0.3, 0.42, 1.39);
+  transition: 0.3s cubic-bezier(0.52, -0.3, 0.42, 1.39);
+}
+#app #menu-icon:hover .bar:after {
+  width: 20px;
+}
+#app #tabs {
+  float: right;
+  margin: 22px 0 0 25px;
+}
+#app #tabs a {
+  margin-left: 20px;
+  color: #4C4949;
+  font-weight: 600;
+  font-size: 14px;
+}
+#app #tabs a:last-child {
+  margin-right: 20px;
+  color: #cbc9c9;
+  -webkit-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+#app #tabs a:last-child:hover {
+  color: #4C4949;
+}
+#app #card {
+  width: 90%;
+  height: 150px;
+  border-radius: 5px;
+  margin: 80px auto 20px auto;
+  background: #2A98FF;
+  color: #fff;
+  box-shadow: 0px 8px 40px -5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: 0.3s cubic-bezier(0.52, -0.55, 0.42, 1.7);
+  transition: 0.3s cubic-bezier(0.52, -0.55, 0.42, 1.7);
+}
+#app #card:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+#app #card #visa {
+  width: 40px;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+#app #card #acno {
+  padding-top: 60px;
+}
+#app #card #acno span {
+  float: left;
+  margin-left: 20px;
+}
+#app #card p {
+  font-size: 12px;
+  float: left;
+  margin: 5px 0 0 20px;
+}
+#app #card p#small {
+  color: #b3b3b3;
+}
+#app #card p#name {
+  clear: left;
+  margin-top: 20px;
+  font-size: 18px;
+}
+#app #card #valid {
+  float: right;
+  margin: 15px 20px 0 0;
+}
+#app #card #valid #left {
+  float: left;
+}
+#app #card #valid #left .text {
+  font-size: 8px;
+  opacity: 0.5;
+}
+#app #card #valid #left #down {
+  margin-top: -3px;
+}
+#app #card #valid #date {
+  float: right;
+  font-size: 18px;
+  margin-left: 5px;
+}
+#app #slider {
+  margin-bottom: 80px;
+}
+#app #slider .middle {
+  width: 30px;
+  height: 3px;
+  border-radius: 10px;
+  margin: auto;
+  background: #2A98FF;
+  position: relative;
+}
+#app #slider .middle:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background: #e6e6e6;
+  border-radius: 10px;
+  left: -35px;
+}
+#app #slider .middle:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background: #e6e6e6;
+  border-radius: 10px;
+  right: -35px;
+}
+#app #cost {
+  font-size: 28px;
+  font-weight: 600;
+  color: #2A98FF;
+}
+#app #product {
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #cccccc;
+}
+#app #touchId img {
+  width: 60px;
+  margin-top: 20px;
+}
