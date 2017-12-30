@@ -27,3 +27,11 @@
 7. Urban Ears Website - <a href='https://codepen.io/prvnbist/pen/bRbjmN'>Codepen</a> | <a href='https://youtu.be/dYneZegGVcQ'>Youtube</a>
 
 - Design By - <a href="https://dribbble.com/shots/3536062-Urbanears-Landing-Screen/attachments/784984">Nathan Riley</a>
+
+8. Star Wars Product Card - <a href="https://codepen.io/prvnbist/pen/GMLoGP">Codepen</a> | <a href="https://youtu.be/W_F5cJIbbe4">Youtube</a>
+
+- Design By - <a href="https://dribbble.com/shots/3451848-Star-Wars-Stromtrooper-Helmet-UI">Eray Yesilyurt</a>
+
+9. Splash Of Colors Website - <a href="https://codepen.io/prvnbist/pen/opWjPO">Codepen</a> | <a href="https://youtu.be/KZaak_iIcX8">Youtube</a>
+
+- Design By - <a href="">M S Brar</a>
