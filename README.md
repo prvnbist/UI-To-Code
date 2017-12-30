@@ -34,4 +34,4 @@
 
 9. Splash Of Colors Website - <a href="https://codepen.io/prvnbist/pen/opWjPO">Codepen</a> | <a href="https://youtu.be/KZaak_iIcX8">Youtube</a>
 
-- Design By - <a href="">M S Brar</a>
+- Design By - <a href="https://dribbble.com/shots/4050414-Splash-Colour">M S Brar</a>
