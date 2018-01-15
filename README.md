@@ -35,3 +35,7 @@
 9. Splash Of Colors Website - <a href="https://codepen.io/prvnbist/pen/opWjPO">Codepen</a> | <a href="https://youtu.be/KZaak_iIcX8">Youtube</a>
 
 - Design By - <a href="https://dribbble.com/shots/4050414-Splash-Colour">M S Brar</a>
+
+10. Pipeline Website - <a href="https://codepen.io/prvnbist/pen/eyVEVJ">Codepen</a> | <a href="https://youtu.be/a_MAZUIN1fg">Youtube</a>
+
+- Design By- <a href="https://dribbble.com/shots/3982614-Pipeline">Sinan Ozdemir</a>  
